@@ -1,6 +1,6 @@
 from engine import Agent, Environment
+import networkx as nx
 
-# Create agents
 agents = [
     Agent("Hero", health=12, strength=4),
     Agent("Bandit", health=10, strength=3),
@@ -17,3 +17,7 @@ for _ in range(5):
 print("\nFinal states:")
 for a in agents:
     print(a)
+
+# Save the graph to a file
+nx.write_gml(env.graph, "branching_graph.gml")
+print("\nBranching graph saved as branching_graph.gml")
