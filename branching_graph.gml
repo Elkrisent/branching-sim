@@ -2,77 +2,92 @@ graph [
   directed 1
   node [
     id 0
-    label "Turn0_Hero_708"
+    label "Turn0_Hero_152"
+    event "Hero waits."
     turn 0
   ]
   node [
     id 1
-    label "Turn0_Bandit_733"
+    label "Turn0_Bandit_658"
+    event "Bandit attacked NPC for 3 damage!"
     turn 0
   ]
   node [
     id 2
-    label "Turn0_NPC_631"
+    label "Turn0_NPC_706"
+    event "NPC attacked Bandit for 1 damage!"
     turn 0
   ]
   node [
     id 3
-    label "Turn1_Hero_967"
+    label "Turn1_Hero_237"
+    event "Hero waits."
     turn 1
   ]
   node [
     id 4
-    label "Turn1_Bandit_37"
+    label "Turn1_Bandit_991"
+    event "Bandit waits."
     turn 1
   ]
   node [
     id 5
-    label "Turn1_NPC_363"
+    label "Turn1_NPC_941"
+    event "NPC waits."
     turn 1
   ]
   node [
     id 6
-    label "Turn2_Hero_43"
+    label "Turn2_Hero_439"
+    event "Hero waits."
     turn 2
   ]
   node [
     id 7
-    label "Turn2_Bandit_831"
+    label "Turn2_Bandit_796"
+    event "Bandit attacked Hero for 3 damage!"
     turn 2
   ]
   node [
     id 8
-    label "Turn2_NPC_166"
+    label "Turn2_NPC_927"
+    event "NPC attacked Hero for 2 damage!"
     turn 2
   ]
   node [
     id 9
-    label "Turn3_Hero_628"
+    label "Turn3_Hero_685"
+    event "Hero waits."
     turn 3
   ]
   node [
     id 10
-    label "Turn3_Bandit_844"
+    label "Turn3_Bandit_87"
+    event "Bandit waits."
     turn 3
   ]
   node [
     id 11
-    label "Turn3_NPC_860"
+    label "Turn3_NPC_393"
+    event "NPC waits."
     turn 3
   ]
   node [
     id 12
-    label "Turn4_Hero_179"
+    label "Turn4_Hero_528"
+    event "Hero waits."
     turn 4
   ]
   node [
     id 13
-    label "Turn4_Bandit_809"
+    label "Turn4_Bandit_266"
+    event "Bandit attacked NPC for 3 damage!"
     turn 4
   ]
   node [
     id 14
-    label "Turn4_NPC_244"
+    label "Turn4_NPC_218"
+    event "NPC attacked Bandit for 2 damage!"
     turn 4
   ]
   edge [
